@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  margin: 1rem;
+  background-color: #31343a;
+}
+
+.font {
+  color: white;
+}
+
+.bar {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.messages {
+  box-sizing: border-box;
+  height: calc(100vh - 5rem);
+  width: calc(100vw - 10rem);
+  overflow: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.btn {
+  padding: 0;
+  margin: 0;
+  width: 10%;
+  background-color: gainsboro;
+  border: none;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: lightgray;
+}
+
+.nohover {
+  width: 90%;
+  border: none;
+  outline: none;
+}
+
+.nohover:focus {
+  border: none;
+}
+
+.nohover:hover {
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.messages::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
